@@ -19,42 +19,42 @@ class WorkoutDropdown extends Component {
         </div>,
          "/chest":<div>
          <DropdownButton id="dropdown-basic-button" title="Pick Chest Exercise">
-           <Dropdown.Item href="/declinePress">Decline Press</Dropdown.Item>
-           <Dropdown.Item href="/benchPress">Bench Press</Dropdown.Item>
-           <Dropdown.Item href="/cableCross">Cable Cross</Dropdown.Item>
-           <Dropdown.Item href="/inclineDumbellPress">Incline Dumbell Press</Dropdown.Item>
+           <Dropdown.Item href="/chest/declinePress">Decline Press</Dropdown.Item>
+           <Dropdown.Item href="/chest/benchPress">Bench Press</Dropdown.Item>
+           <Dropdown.Item href="/chest/cableCross">Cable Cross</Dropdown.Item>
+           <Dropdown.Item href="/chest/inclineDumbellPress">Incline Dumbell Press</Dropdown.Item>
          </DropdownButton>
        </div>,
        "/back":<div>
        <DropdownButton id="dropdown-basic-button" title="Pick Back Exercise">
-         <Dropdown.Item href="/bentoverRows">Bentover Rows</Dropdown.Item>
-         <Dropdown.Item href="/reverseGrip">Reverse Grip Pulldown</Dropdown.Item>
-         <Dropdown.Item href="/cableRow">Cable Row</Dropdown.Item>
-         <Dropdown.Item href="/backExtension">Back Extension</Dropdown.Item>
+         <Dropdown.Item href="/back/bentoverRows">Bentover Rows</Dropdown.Item>
+         <Dropdown.Item href="/back/reverseGrip">Reverse Grip Pulldown</Dropdown.Item>
+         <Dropdown.Item href="/back/cableRow">Cable Row</Dropdown.Item>
+         <Dropdown.Item href="/back/backExtension">Back Extension</Dropdown.Item>
        </DropdownButton>
      </div>,
      "/arms":<div>
      <DropdownButton id="dropdown-basic-button" title="Pick Arms Exercise">
-       <Dropdown.Item href="/closeGripBench">Close-Grip Bench Press</Dropdown.Item>
-       <Dropdown.Item href="/dumbellCurl">Dumbell Bicep Curl</Dropdown.Item>
-       <Dropdown.Item href="/tricepPulldown">Tricep Pull Down</Dropdown.Item>
-       <Dropdown.Item href="/ezBarCurl">EZ Bar Curl</Dropdown.Item>
+       <Dropdown.Item href="/arms/closeGripBench">Close-Grip Bench Press</Dropdown.Item>
+       <Dropdown.Item href="/arms/dumbellCurl">Dumbell Bicep Curl</Dropdown.Item>
+       <Dropdown.Item href="/arms/tricepPulldown">Tricep Pull Down</Dropdown.Item>
+       <Dropdown.Item href="/arms/ezBarCurl">EZ Bar Curl</Dropdown.Item>
      </DropdownButton>
    </div>,
    "/shoulders":<div>
    <DropdownButton id="dropdown-basic-button" title="Pick Shoulder Exercise">
-     <Dropdown.Item href="/seatedDumbell">Seated Dumbell Press</Dropdown.Item>
-     <Dropdown.Item href="/bentoverDelt">Bent-Over Delt Raise</Dropdown.Item>
-     <Dropdown.Item href="/sideLateralRaise">Side Lateral Raise</Dropdown.Item>
-     <Dropdown.Item href="/uprightRows">Upright Rows</Dropdown.Item>
+     <Dropdown.Item href="/arms/seatedDumbell">Seated Dumbell Press</Dropdown.Item>
+     <Dropdown.Item href="/arms/bentoverDelt">Bent-Over Delt Raise</Dropdown.Item>
+     <Dropdown.Item href="/arms/sideLateralRaise">Side Lateral Raise</Dropdown.Item>
+     <Dropdown.Item href="/arms/uprightRows">Upright Rows</Dropdown.Item>
    </DropdownButton>
  </div>,
     "/legs-abs":<div>
     <DropdownButton id="dropdown-basic-button" title="Pick Legs/Abs Exercise">
-    <Dropdown.Item href="/crunches">Crunches</Dropdown.Item>
-    <Dropdown.Item href="/squats">Squats</Dropdown.Item>
-    <Dropdown.Item href="/legRaises">Leg Raises</Dropdown.Item>
-    <Dropdown.Item href="/calfRaises">Calf Raises</Dropdown.Item>
+    <Dropdown.Item href="/legs-abs/crunches">Crunches</Dropdown.Item>
+    <Dropdown.Item href="/legs-abs/squats">Squats</Dropdown.Item>
+    <Dropdown.Item href="/legs-abs/legRaises">Leg Raises</Dropdown.Item>
+    <Dropdown.Item href="/legs-abs/calfRaises">Calf Raises</Dropdown.Item>
     </DropdownButton>
     </div>
       }
