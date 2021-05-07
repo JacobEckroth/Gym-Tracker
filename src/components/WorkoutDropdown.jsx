@@ -9,7 +9,7 @@ class WorkoutDropdown extends Component {
       pathName: window.location.pathname,
       lookupTable :{
           "/":<div>
-          <DropdownButton id="dropdown-basic-button" title="Pick Exercise">
+          <DropdownButton id="dropdown-basic-button" title="Pick Exercise Category">
             <Dropdown.Item href="/chest">Chest</Dropdown.Item>
             <Dropdown.Item href="/back">Back</Dropdown.Item>
             <Dropdown.Item href="/arms">Arms</Dropdown.Item>
