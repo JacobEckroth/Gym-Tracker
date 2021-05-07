@@ -12,7 +12,8 @@ const validExercises = {
     "back":["bentoverRows","reverseGrip","cableRow","backExtension"],
     "arms":["closeGripBench","dumbellCurl","tricepPulldown","ezBarCurl"],
     "shoulders":["seatedDumbell","bentoverDelt","sideLateralRaise","uprightRows"],
-    "legs-abs":["crunches","squats","legRaises","calfRaises"]
+    "legs-abs":["crunches","squats","legRaises","calfRaises"],
+    "extras":["pullUps","pushUps","dips","benchDips","russianTwist"]
 }
 
 

@@ -15,6 +15,7 @@ class WorkoutDropdown extends Component {
             <Dropdown.Item href="/arms">Arms</Dropdown.Item>
             <Dropdown.Item href="/shoulders">Shoulders</Dropdown.Item>
             <Dropdown.Item href="/legs-abs">Legs/Abs</Dropdown.Item>
+            <Dropdown.Item href="/extras">Extras</Dropdown.Item>
           </DropdownButton>
         </div>,
          "/chest":<div>
@@ -55,6 +56,15 @@ class WorkoutDropdown extends Component {
     <Dropdown.Item href="/legs-abs/squats">Squats</Dropdown.Item>
     <Dropdown.Item href="/legs-abs/legRaises">Leg Raises</Dropdown.Item>
     <Dropdown.Item href="/legs-abs/calfRaises">Calf Raises</Dropdown.Item>
+    </DropdownButton>
+    </div>,
+    "/extras":<div>
+    <DropdownButton id="dropdown-basic-button" title="Pick Extras Exercise">
+    <Dropdown.Item href="/extras/pullUps">Pull Ups</Dropdown.Item>
+    <Dropdown.Item href="/extras/pushUps">Push Ups</Dropdown.Item>
+    <Dropdown.Item href="/extras/dips">Dips</Dropdown.Item>
+    <Dropdown.Item href="/extras/benchDips">Bench Dips</Dropdown.Item>
+    <Dropdown.Item href="/extras/russianTwist">Russian Twist</Dropdown.Item>
     </DropdownButton>
     </div>
       }
