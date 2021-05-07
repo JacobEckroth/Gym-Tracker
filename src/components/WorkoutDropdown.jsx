@@ -43,10 +43,10 @@ class WorkoutDropdown extends Component {
    </div>,
    "/shoulders":<div>
    <DropdownButton id="dropdown-basic-button" title="Pick Shoulder Exercise">
-     <Dropdown.Item href="/arms/seatedDumbell">Seated Dumbell Press</Dropdown.Item>
-     <Dropdown.Item href="/arms/bentoverDelt">Bent-Over Delt Raise</Dropdown.Item>
-     <Dropdown.Item href="/arms/sideLateralRaise">Side Lateral Raise</Dropdown.Item>
-     <Dropdown.Item href="/arms/uprightRows">Upright Rows</Dropdown.Item>
+     <Dropdown.Item href="/shoulders/seatedDumbell">Seated Dumbell Press</Dropdown.Item>
+     <Dropdown.Item href="/shoulders/bentoverDelt">Bent-Over Delt Raise</Dropdown.Item>
+     <Dropdown.Item href="/shoulders/sideLateralRaise">Side Lateral Raise</Dropdown.Item>
+     <Dropdown.Item href="/shoulders/uprightRows">Upright Rows</Dropdown.Item>
    </DropdownButton>
  </div>,
     "/legs-abs":<div>
