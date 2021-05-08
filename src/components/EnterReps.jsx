@@ -64,13 +64,16 @@ class EnterReps extends Component {
     })
     
   }
+  submitHandler(e){
+      e.preventDefault();
+  }
 
   render() {
     
     return (
       <div>
         <h2 class="exerciseHeader">{this.state.exercise}</h2>
-        <Form>
+        <Form onSubmit={this.submitHandler}>
             <Row>
                 <Col>
                 <Form.Group controlId={"formGroupSets"}>
