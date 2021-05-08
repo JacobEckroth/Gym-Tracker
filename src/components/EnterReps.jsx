@@ -3,6 +3,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "../form.css"
 
 const pathToTitle = {
   cableCross: "Cable Cross",
@@ -73,7 +74,7 @@ class EnterReps extends Component {
     return (
       <div>
         <h2 class="exerciseHeader">{this.state.exercise}</h2>
-        <Form onSubmit={this.submitHandler}>
+        <Form className="mainForm" onSubmit={this.submitHandler}>
             <Row>
                 <Col>
                 <Form.Group controlId={"formGroupSets"}>
